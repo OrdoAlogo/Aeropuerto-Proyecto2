@@ -1,0 +1,38 @@
+package dominio;
+
+import java.io.Serializable;
+
+public class  Animal implements Serializable {
+
+	/**
+	 * j
+	 */
+	private static final long serialVersionUID = 1L;
+	private String nombre;
+	
+	
+	
+	public Animal(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+	public  String  comer() {
+		return " Comiendo";
+	}
+
+}
